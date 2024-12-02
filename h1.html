@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shifra,My Personal chatBot</title>
+    <link rel="shortcut icon" href="image/Shifra.webp"type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!--this is video open--> 
+   
+    <video class="vid" autoplay loop muted>
+      <source type="video/mp4" src="video/bgv1.mp4"/>
+    </video>
+
+<!--<video autoplay muted loop id="myVideo">
+    <source src="video/bgvd.mp4" type="video/mp4">-->
+    
+  <!--this is video close--> 
+
+  <div class="r2">
+    <img src="image/shifra.png" alt="logo" id="logo">
+  </div>
+  <div class="r4">
+   
+  </div>
+  
+  <div class="r1">
+   
+    <h1>I'm <span id="name">Shifra</span>, Your <span id="va">Personal chatBot</span></h1>
+<br>
+
+<!--this is chat bot-->
+
+<div class="chatbot" id="chatbot">
+  <h3>Chat with us!</h3>
+  <div id="chatbox">
+      <p class="bot">Hello! How can I assist you today?</p>
+  </div>
+  <input class="in" type="text" id="userInput" placeholder="Type your message here...">
+  <button class="se" onclick="sendMessage()">Send</button>
+</div>
+    
+  </div>
+
+  
+    <div class="r3">
+<img class="voi" src="voice image/gif2.gif" alt="voice"id="voice">
+<button id="btn"><img src="mic.svg" alt="mic"><span id="content"> Click here for talk to me </span></button>
+
+
+
+
+ <script src="index.js"></script>
+
+ <script src="script.js"></script>
+</div>
+</body>
+</html>
